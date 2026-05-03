@@ -1,0 +1,12 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY ingest.py .
+
+# We will set this to run a cron job later, but for now, 
+# it will just run the script once when the container starts.
+CMD ["python", "ingest.py"]
