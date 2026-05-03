@@ -20,5 +20,16 @@ services:
     env_file:
       - .env
 
+  dashboard:
+    build: ./dashboard
+    container_name: strava_dashboard
+    restart: always
+    depends_on:
+      - db
+    env_file:
+      - .env
+    ports:
+      - "8501:8501"
+
 volumes:
   pgdata:
