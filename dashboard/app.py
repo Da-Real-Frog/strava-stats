@@ -57,7 +57,7 @@ def get_totals_per_year():
 
 # --- Dashboard UI ---
 st.title("🐸  My rides")
-st.markdown("Analyzing ride data across different inout sets.")
+st.markdown("Analyzing ride data across different input sets.")
 
 # Section 1: Averages per Bike
 st.subheader("Averages per Ride (By Bike)")
