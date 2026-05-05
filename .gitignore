@@ -1,6 +1,9 @@
 #Mac stuff
 .DS_Store
 
+#do not distribure the render deployment script with the repo, as it contains sensitive information
+setup_remote_db.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
