@@ -5,7 +5,7 @@ import streamlit as st
 from dotenv import load_dotenv
 
 # Page configuration
-st.set_page_config(page_title="Strava Stats Dashboard", page_icon="🚴‍♂️", layout="wide")
+st.set_page_config(page_title="My stats", page_icon="🐸", layout="wide")
 
 # Load environment variables (Local development)
 load_dotenv(dotenv_path='../.env')
@@ -56,8 +56,8 @@ def get_totals_per_year():
     return pd.read_sql_query(query, conn)
 
 # --- Dashboard UI ---
-st.title("🚴‍♂️ Strava Ride Analytics")
-st.markdown("Analyzing ride data across different bike profiles.")
+st.title("🐸  My rides")
+st.markdown("Analyzing ride data across different inout sets.")
 
 # Section 1: Averages per Bike
 st.subheader("Averages per Ride (By Bike)")
