@@ -2,6 +2,8 @@
 
 Experimeneting with my Strava data
 
+*** This is 90% vibe coode, so beware as I can guarantee it is unsecure and unreliable **
+
 ## 🏗 Architecture
 
 The project is built with a modular, containerized architecture:
