@@ -2,6 +2,8 @@
 
 Experimeneting with my Strava data
 
+** Well, my ultimate goal was to start using AI/LLM to look at my data, and starva just gave me an easy button by publising an MCP, so i will switch gear and start integrating it, might make a new project...
+
 *** This is 90% vibe coode, so beware as I can guarantee it is unsecure and unreliable **
 
 ## 🏗 Architecture
